@@ -28,7 +28,7 @@ STM32 x Arduino にて近藤科学ICS 3.5 サーボを使用するライブラ�
 <br>
 <br>
 # ●動作確認
-当方、プリメイドAI（STM32F102）、BluePill（同F103）
+プリメイドAI（STM32F102）、BluePill（同F103）
 <br>
 <br>
 # ●利用する想定回路
