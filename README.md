@@ -85,7 +85,7 @@ devemin
 <br>
 <br>
 # ●Thanks!
-<br>@GOROman         ( https://twitter.com/GOROman )
+@GOROman         ( https://twitter.com/GOROman )
 <br>@izm             ( https://twitter.com/izm)
 <br>@kazzlog         ( https://twitter.com/kazzlog )
 <br>@Schwarz_Sardine ( https://twitter.com/Schwarz_Sardine )
