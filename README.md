@@ -36,7 +36,8 @@ STM32 x Arduino にて近藤科学ICS 3.5 サーボを使用するライブラ�
 <br>接続するpin番号 は、
 <br>Serial2: PA2
 <br>Serial3: PB10
-<br>となっております。(Serial1: PA9)　当ライブラリではSerial1はデバッグ用として利用想定しています。Serial2-3を利用下さい。
+<br>となっております。
+<br>(Serial1: PA9)　当ライブラリではSerial1はデバッグ用として利用想定しています。Serial2-3を利用下さい。
 <br>レベルコンバータは、私は秋月電子のこちらを利用しました。（3.3Vでも動いてはいましたが。）
 <br>４ビット双方向ロジックレベル変換モジュール　ＢＳＳ１３８使用
 <br>http://akizukidenshi.com/catalog/g/gK-13837/
