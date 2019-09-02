@@ -76,7 +76,8 @@ void loop() {
 # ●作成者
 devemin
 <br>
-<br>●ライセンス
+<br>
+# ●ライセンス
 <br>MIT Liscence
 <br>
 <br>
