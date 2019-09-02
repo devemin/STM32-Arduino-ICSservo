@@ -84,6 +84,14 @@ devemin
 <br>MIT Liscence
 <br>
 <br>
+# ●Thanks!
+<br>@GOROman         ( https://twitter.com/GOROman )
+<br>@izm             ( https://twitter.com/izm)
+<br>@kazzlog         ( https://twitter.com/kazzlog )
+<br>@Schwarz_Sardine ( https://twitter.com/Schwarz_Sardine )
+<br>@witch_kazumin   ( https://twitter.com/witch_kazumin )
+<br>and my twitter-follower...!
+<br>
 # ●注意事項
 当ライブラリから発生する事象に対し、責任は全て利用者にあります。
 <br>コードをよくご理解の上、ご利用下さい。
