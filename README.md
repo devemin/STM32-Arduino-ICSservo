@@ -1,4 +1,4 @@
-# -STM32-Arduino-ICSservo
+# STM32-Arduino-ICSservo
 STM32 x Arduino にて近藤科学ICS 3.5 サーボを使用するライブラリです。
 <br>
 <br>近藤科学のICSサーボは最大1.25Mbpsと高い通信速度で処理を行えますが、STM32F103等は48～72MHzの高い処理能力を持っており、1.25Mbpsでの処理が可能です。
