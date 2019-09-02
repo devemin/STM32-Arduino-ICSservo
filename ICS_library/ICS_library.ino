@@ -1,8 +1,7 @@
 /*
  * ICS_library.ino
  * 
- * Arduino_STM32 with Kondo ICS servo 
- * Sample coding.
+ * Arduino_STM32 with Kondo ICS servo library.
  * 
  * MIT License
  * 
