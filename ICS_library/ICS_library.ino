@@ -770,7 +770,7 @@ int IcsCommunication::get_EEPROM(uint8 servolocalID, EEPROMdata *r_edata ) {
 
 
 
-(beta test)
+//(beta test)
 //EEPROM書き込み
 //引数：　サーボＩＤ、ＥＥＰＲＯＭデータ構造体
 //戻り値にRETCODE_OK（1の値）、またはエラーコード（負の値）が入ります。
