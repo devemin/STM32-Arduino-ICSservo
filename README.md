@@ -61,41 +61,33 @@ https://github.com/devemin/Pre-maiduino
 # ●コード例
 コード loop 内処理サンプルをご覧ください。
 <br>あえて１ファイルにクラスのコードをまとめてありますので、必要に応じ適宜別ファイルに移すなどしてください。
-<code>
-
+```
 IcsCommunication ics2(Serial2);
 
 void setup() {
-
   ics2.begin(SERIAL2_BAUDRATE, 50, true);   //初期化
-
 }
-
 void loop() {
-
   int retval = set_position(1, 7500);     //サーボ移動（ID, ポジション）
-
 } 
-
-</code>
-
+```
 <br>
 <br>
-# ●補足
+#●補足
 秋月にたくさん売ってるNucleo ボードもSTM32シリーズが使われていますので、当ライブラリが使用できるかと思います。
 <br>また、内部のtransceive 関数と通信速度等を書き替えれば他機種でも使えるかと思います。（他Arduino機種など）
 <br>上位のICS 3.6規格には現在位置取得コマンドが存在しますが、それもtranscieve 関数を利用してもらえば、簡単に追加実装できると思います。
 <br>
 <br>
-# ●作成者
+#●作成者
 devemin
 <br>
 <br>
-# ●ライセンス
+#●ライセンス
 <br>MIT Liscence
 <br>
 <br>
-# ●Thanks!
+#●Thanks!
 @GOROman         ( https://twitter.com/GOROman )
 <br>@izm             ( https://twitter.com/izm)
 <br>@kazzlog         ( https://twitter.com/kazzlog )
@@ -103,11 +95,11 @@ devemin
 <br>@witch_kazumin   ( https://twitter.com/witch_kazumin )
 <br>and my twitter-follower...!
 <br>
-# ●注意事項
+#●注意事項
 当ライブラリから発生する事象に対し、責任は全て利用者にあります。
 <br>コードをよくご理解の上、ご利用下さい。
 <br>
 <br>
-# ●更新履歴
+#●更新履歴
 ver 0.50:  publish
 <br>
