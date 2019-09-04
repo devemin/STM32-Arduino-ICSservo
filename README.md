@@ -50,7 +50,7 @@ https://github.com/devemin/Pre-maiduino
 <br>
 <br>
 # ●コード例
-コード loop 内に処理サンプルを書いてありますので、ご覧ください。
+ICS_library.ino の コード内 loop() に処理サンプルを書いてありますので、ご覧ください。
 <br>あえて１ファイルにクラスのコードをまとめてありますので、必要に応じ適宜別ファイルに移すなどしてください。
   
 ```cpp
@@ -73,27 +73,27 @@ void loop() {
 
 <br>
 <br>
-#●EEPROM書き込みを行う set_EEPROM 関数について
+# ●EEPROM書き込みを行う set_EEPROM 関数について
 EEPROM書き込み処理は自分の個体では問題なく使えてますし、充分注意してコーディングしたつもりですが、万が一バグで書き込みデータが狂うと最悪サーボ修理となります。一応この関数はベータ版としておきます。set_EEPROM 関数以外は、そういうことは無いので安全に使えます。
 <br>set_EEPROM 関数をご利用の方は、まず1か所（手先など）からお試し頂き、その後他の場所に使ってみてください。
 <br>処理時間は1回 500msほどかかります。
 <br>
 <br>
-#●補足
+# ●補足
 秋月にたくさん売ってるNucleo ボードもSTM32シリーズが使われていますので、当ライブラリが使用できるかと思います。
 <br>また、内部のtransceive 関数と通信速度等を書き替えれば他機種でも使えるかと思います。（他Arduino機種など）
 <br>上位のICS 3.6規格には現在位置取得コマンドが存在しますが、それもtranscieve 関数を利用してもらえば、簡単に追加実装できると思います。
 <br>
 <br>
-#●作成者
+# ●作成者
 devemin
 <br>
 <br>
-#●ライセンス
+# ●ライセンス
 <br>MIT Liscence
 <br>
 <br>
-#●Thanks!
+# ●Thanks!
 @GOROman         ( https://twitter.com/GOROman )
 <br>@izm             ( https://twitter.com/izm)
 <br>@kazzlog         ( https://twitter.com/kazzlog )
@@ -101,11 +101,11 @@ devemin
 <br>@witch_kazumin   ( https://twitter.com/witch_kazumin )
 <br>and my twitter-follower...!
 <br>
-#●注意事項
+# ●注意事項
 当ライブラリから発生する事象に対し、責任は全て利用者にあります。
 <br>コードをよくご理解の上、ご利用下さい。
 <br>
 <br>
-#●更新履歴
+# ●更新履歴
 ver 0.50:  publish
 <br>
