@@ -62,14 +62,23 @@ https://github.com/devemin/Pre-maiduino
 コード loop 内処理サンプルをご覧ください。
 <br>あえて１ファイルにクラスのコードをまとめてありますので、必要に応じ適宜別ファイルに移すなどしてください。
 <code>
+
 IcsCommunication ics2(Serial2);
+
 void setup() {
+
   ics2.begin(SERIAL2_BAUDRATE, 50, true);   //初期化
+
 }
+
 void loop() {
-    int retval = set_position(1, 7500);     //サーボ移動（ID, ポジション）
+
+  int retval = set_position(1, 7500);     //サーボ移動（ID, ポジション）
+
 } 
+
 </code>
+
 <br>
 <br>
 # ●補足
