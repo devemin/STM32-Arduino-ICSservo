@@ -1271,8 +1271,8 @@ int IcsCommunication::set_ID(uint8 servolocalID) {
 
 
 
-IcsCommunication ics2(Serial2);
-IcsCommunication ics3(Serial3);
+IcsCommunication ics2(Serial2); //HV
+IcsCommunication ics3(Serial3); //MV
 
 
 
