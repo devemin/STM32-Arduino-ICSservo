@@ -100,7 +100,7 @@ devemin
 <br>
 <br>
 # ●ライセンス
-<br>MIT Liscence
+<br>MIT License
 <br>
 <br>
 # ●Thanks!
